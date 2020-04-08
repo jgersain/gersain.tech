@@ -4,5 +4,6 @@ module.exports = () => ({
   plugins: [
     tailwind('./tailwind.config.js'), 
     require('autoprefixer'),
+    require('cssnano'),
   ]
 })
