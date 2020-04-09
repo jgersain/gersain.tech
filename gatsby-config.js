@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `José Gersain - I'am a Software Enginner`,
+    title: `I'am a Software Enginner`,
     description: `I'am a Software Engineer...`,
     author: `José Gersain Osorio Morales`,
   },

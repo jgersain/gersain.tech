@@ -1,12 +1,12 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import BaseLayout from "../layouts/BaseLayout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-  </Layout>
+  <BaseLayout>
+    <SEO title="José Gersain" />
+  </BaseLayout>
 )
 
 export default IndexPage
