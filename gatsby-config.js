@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `I'am a Software Enginner`,
-    description: `I'am a Software Engineer...`,
+    description: `This is my personal site`,
     author: `José Gersain Osorio Morales`,
   },
   plugins: [
@@ -28,9 +28,20 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
+      options: {
+        custom: {
+          urls: [
+            `https://fonts.googleapis.com/css?family=Poppins:400,500,700|Viga&display=swap`
+          ],
+        },
+      },
+    },
     { 
       resolve: `gatsby-plugin-purgecss`,
       options: {
+        develop: false,
         printRejected: true, // Print removed selectors and processed file names
         tailwind: true, // Enable tailwindcss support
       },

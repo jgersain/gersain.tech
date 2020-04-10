@@ -2,9 +2,7 @@
   gersain.tech – 1.0.0
 </h1>
 
-My first personal site, built with [Gatsby](https://www.gatsbyjs.org)
-
-_Esto esta en cursiva_
+_My first personal site, built with_ [Gatsby](https://www.gatsbyjs.org)
 
 ## 🚀 Quick start
 
@@ -28,3 +26,9 @@ gatsby develop
 [Set Up Nginx with HTTP/2 Support](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-18-04)
 
 [Nginx Caching](https://serversforhackers.com/c/nginx-caching)
+
+**`4. Icons`**
+
+[Iconfinder](https://www.iconfinder.com/), [Iconmonstr](https://iconmonstr.com/)
+
+[Crete your icon font](https://mediatemple.net/blog/tips/creating-implementing-icon-font-tutorial/)
