@@ -24,9 +24,9 @@ const BaseLayout = ({ children }) => {
   `)
 
   return (
-    <div className="grid grid-rows-3 grid-cols-12 h-screen">
+    <div className="grid grid-rows-layout grid-cols-100 min-h-screen bg-gray-800">
       <Header siteTitle={site.siteMetadata.title} />
-      <main className="row-auto col-span-12 bg-green-600">
+      <main className="col-span-12 text-center p-3">
         {children}
       </main>
       <Footer />

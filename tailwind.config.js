@@ -4,7 +4,11 @@ module.exports = {
       'poppins': ['Poppins', 'sans-serif'],
       'viga': ['Viga', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        'layout': 'auto 1fr auto',
+      }
+    },
   },
   variants: {},
   plugins: [],
