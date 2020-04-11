@@ -44,6 +44,7 @@ module.exports = {
         develop: false,
         printRejected: true, // Print removed selectors and processed file names
         tailwind: true, // Enable tailwindcss support
+        ignore: ['/fonts.css'], // Ignore files/folders
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
