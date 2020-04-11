@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default () => (
-  <footer className="col-span-12 bg-gray-900 text-gray-600 py-10 text-center">
+  <footer className="col-span-12 bg-gray-900 text-gray-400 py-10 text-center">
     <div className="flex justify-center py-2">
       <a className="text-teal-600 hover:text-orange-200 p-3" target="_blank" href="https://github.com/jgersain" aria-label="GitHub" rel="noopener">
         <span className="icon-github text-4xl" />
