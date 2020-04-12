@@ -29,25 +29,19 @@ module.exports = {
     },
     `gatsby-plugin-postcss`,
     {
-      resolve: `gatsby-plugin-web-font-loader`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        custom: {
-          urls: [
-            `https://fonts.googleapis.com/css?family=Poppins:400,500,700|Viga&display=swap`
-          ],
-        },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-preconnect`,
-      options: {
-        domains: [
-          'https://fonts.googleapis.com',
-          'https://fonts.gstatic.com'
+        fonts: [
+          {
+            family: `Poppins`,
+            variants: [`400`, `500`, `700`]
+          },
+          {
+            family: `Viga`
+          },
         ],
       },
     },
-    `gatsby-plugin-preload-fonts`,
     { 
       resolve: `gatsby-plugin-purgecss`,
       options: {
